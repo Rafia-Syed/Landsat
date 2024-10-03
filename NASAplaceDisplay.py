@@ -1,4 +1,5 @@
 import ee
+ee.Authenticate()
 ee.Initialize(project='ee-shumailarshadubit')
 import geemap
 import matplotlib.pyplot as plt
